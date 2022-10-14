@@ -11,3 +11,4 @@ class FrameTop(BaseFrame):
     def label(self):
         print(self.config)
         Label(self.window, text='FrameTop').grid(row=0, column=0)
+        Entry(self.window, textvariable='as').grid(row=0, column=1)
