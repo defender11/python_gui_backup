@@ -1,0 +1,40 @@
+{
+  "app": {
+    "remote_list": {
+      "staging_new": {
+        "ssh": {
+          "user": "test",
+          "pass": "123456",
+          "ip": "0.0.0.0",
+          "has_key": false
+        },
+        "programs": {
+          "mysql": {
+            "user": {
+              "name": "admin",
+              "pass": "admin"
+            }
+          }
+        },
+        "path": {
+          "temp": "/var/tmp",
+          "projects": "/var/www/html"
+        }
+      }
+    },
+    "local": {
+      "programs": {
+        "mysql": {
+          "user": {
+            "name": "admin",
+            "pass": "admin"
+          }
+        }
+      },
+      "path": {
+        "temp": "/var/tmp",
+        "projects": "/var/www"
+      }
+    }
+  }
+}
